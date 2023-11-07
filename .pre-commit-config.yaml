@@ -18,6 +18,17 @@ repos:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
 
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.10.0
+    hooks:
+      - id: markdownlint-cli2
+
+  - repo: https://github.com/StreamHPC/rocm-docs-spellcheck
+    rev: v0.1.0
+    hooks:
+      - id: spellcheck-markdown
+        exclude: "^tests/|^(CHANGELOG|README).md$"
+
   - repo: local
     hooks:
       - id: mypy
