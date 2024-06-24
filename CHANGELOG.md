@@ -1,3 +1,43 @@
+## v0.34.2 (2024-02-15)
+
+### Fix
+
+- **left-side-menu.jinja**: Fix main doc link for rocm flavor left side menu
+
+## v0.34.1 (2024-02-15)
+
+### Fix
+
+- Update left side menu
+
+## v0.34.0 (2024-02-08)
+
+### Feat
+
+- **core.py**: Add html_image myst extension
+- **core.py**: Enable dollarmath myst extension for inline latex math
+
+## v0.33.2 (2024-02-06)
+
+### Fix
+
+- **left-side-menu.jinja**: Set main doc link for blogs flavor
+
+## v0.33.1 (2024-02-05)
+
+### Fix
+
+- remove old folder
+- Revert "fix: remove toc"
+- remove toc
+- remove duplicates
+- merge conflicts
+- **header.html**: Import version_list macro from header.jinja into header.html
+- Change rocm-blogs flavor top level header to ROCm Blogs
+- Change rocm-blogs second level header Lab Notes to ROCm Docs
+- Remove version list from rocm-blogs header
+- sync wordlist
+
 ## v0.33.0 (2024-01-26)
 
 ### Feat

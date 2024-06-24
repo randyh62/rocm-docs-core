@@ -26,7 +26,6 @@ article_pages = [
 ]
 
 html_theme = "rocm_docs_theme"
-html_theme_options = {"flavor": "rocm-blogs"}
 
 extensions = ["rocm_docs", "rocm_docs.doxygen"]
 external_toc_path = "./sphinx/_toc.yml"
@@ -37,8 +36,8 @@ doxygen_project = {
     "path": "demo/doxygen/xml",
 }
 
-version = "0.33.0"
-release = "0.33.0"
+version = "0.34.2"
+release = "0.34.2"
 html_title = f"ROCm Docs Core {version}"
 project = "ROCm Docs Core"
 author = "Advanced Micro Devices, Inc."
